@@ -1,57 +1,28 @@
-Modify this website design to match my github portfolio.
+Add another section below stack called "Industry / Domain Expertise"
 
-My name is Phelelani Mkhize. I am a Data Scientist and have a background in GIS and Geospatial
+Industry / Domain Specializations:
+Retail - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\franchise.png"
+Development Economics - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\speculate.png"
+Market Research and Feasibility - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\analytics.png" 
+Property Development and Investment - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\investment.png"
+Geo-Risk Analysis and Underwriting - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\risk (1).png"
 
-Data Analytics. I have domain in retail, urban analytics, 
+In the Project Section make the images smaller because they were meant to be icons - they must not occupy so much space in the projects section.
+rather than a large image use these small videos to demo what the app looks like. Using the best web design principles and maitaining the look and feel of the website
+make sure the video is a good representation of the project and is properly located using the best UX/UI design principles of the best portolio websites.
+For the Urban DMS Intelligence project USE THE FOLLOWING short clip for the display part
+I attached an eample of how it should look in the project section above the short description and github link
+Here is the video : "C:\Users\urban\Documents\Website Videos\urban planning intelligence system - Made with Clipchamp.mp4"
+the other projects wont have a video only this one.
 
-market research and real estate economics as well as an interesting and fruitful side quest 
-
-into geo-risk management where I worked as a geospatial analyst who created 
-
-geospatial data products and solutions. I combine my domain expertise 
-
-to build data products and solutions.
-
-My stack includes Python, SQL, ArcGIS, ArcPy, ArcGIS Pro. ArcGIS Online.
-
-I am an AWS Cloud Practitioner with experience on aws services leveraging EC2, EBS, EMR, S3, and RDS.
-
-I write in python and have a focus on working with geospatial data to build spatio-temporal workflows and intelligence models.
-
-
-I need it to be dynamic, fresh yet have hints of tech and strategy. 
-
-Use the best UX/UI design principles while leveraging swiss design to make a portfolio website html file for me for my github portfolio.
-
-I attached an image with The top bar must have the following tabs and functionality. instead of Framer the site must be Phelelani Mkhize.
-
-The first project to add on the website is in the following repo : 
-
-Make sure to optimize my portfolio website for search engines and include keywords in css and html files including my skillsets i.e., GIS, Geospatial Data Analytics Urban Analytics, Alternative Data Specialist, Data Scientist, Data Product Development and Market Research.
-
-Include appropriate meta tags as well for each project.
-
-For the links to github to view the repo of the specific project use the github icon as a link.
+I want you to add to the popups in the Stack section the same thing you did for python and aws by adding the additional info in the popup same for :
+ESRI - Location Platform, ArcGIS Pro, ArcGIS Online, ArcGIS Cloud
+CARTO - Cartoframes, Carto Online, Carto Cloud
 
 
-I havent provided links yet but you can leave the links for later.
+Add the following to the stack section:
+Jupyter Labs - here is the link to the icon to add to the existing stack section : "C:\Users\urban\Documents\Website Icons\share.png"
 
-Here is context on the first project:
 
-The Urban DMS Intelligence will one day change the way we process applications and deal with 
-illegal developments and strategically un-aligned developments.
- The nature of planning is creative and in service to the needs
- of the city - not administrative & bureaucratic as modern planning has been
-  reduced to development applications and paper pushing
-
-Insert appropriate picture, icons and inforgraphics for this website.
-
-The second project context is as follows:
-
-This is an advanced underwriting risk management app that is built to analyse georisk peril risk - i.e,
-Flood, Sea Surge, Thatch Risk as well as leverage International Storm data to provide early warning alerts and quantify potential
-policy damage in Dollars / Rands before a storm hits.
-
-This could save insurance companies millions of rand every year by advanced AI driven underwritng!
-
+Only focus on what I have explicitely told you to focus on - dont change things I did not mention in this prompt.
 
