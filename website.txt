@@ -1,28 +1,2 @@
-Add another section below stack called "Industry / Domain Expertise"
 
-Industry / Domain Specializations:
-Retail - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\franchise.png"
-Development Economics - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\speculate.png"
-Market Research and Feasibility - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\analytics.png" 
-Property Development and Investment - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\investment.png"
-Geo-Risk Analysis and Underwriting - use the following icon and make sure its a small icon like you did for the stack section : "C:\Users\urban\Documents\Website Icons\risk (1).png"
-
-In the Project Section make the images smaller because they were meant to be icons - they must not occupy so much space in the projects section.
-rather than a large image use these small videos to demo what the app looks like. Using the best web design principles and maitaining the look and feel of the website
-make sure the video is a good representation of the project and is properly located using the best UX/UI design principles of the best portolio websites.
-For the Urban DMS Intelligence project USE THE FOLLOWING short clip for the display part
-I attached an eample of how it should look in the project section above the short description and github link
-Here is the video : "C:\Users\urban\Documents\Website Videos\urban planning intelligence system - Made with Clipchamp.mp4"
-the other projects wont have a video only this one.
-
-I want you to add to the popups in the Stack section the same thing you did for python and aws by adding the additional info in the popup same for :
-ESRI - Location Platform, ArcGIS Pro, ArcGIS Online, ArcGIS Cloud
-CARTO - Cartoframes, Carto Online, Carto Cloud
-
-
-Add the following to the stack section:
-Jupyter Labs - here is the link to the icon to add to the existing stack section : "C:\Users\urban\Documents\Website Icons\share.png"
-
-
-Only focus on what I have explicitely told you to focus on - dont change things I did not mention in this prompt.
 
