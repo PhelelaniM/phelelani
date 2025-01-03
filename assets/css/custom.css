@@ -329,37 +329,44 @@ h1, h2, h3, h4, h5, h6 {
 /* Stack Section Styles */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 1rem;
-    padding: 1rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-items: center;
+    justify-content: center;
 }
 
 .skill-category {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
-    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 200px;
     position: relative;
 }
 
-.skill-category:hover {
-    transform: translateY(-5px);
+.skill-icon {
+    width: 62px; /* Increased from 60px */
+    height: 62px; /* Increased from 60px */
+    object-fit: contain;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
 }
 
-.skill-icon {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-    margin-bottom: 0.5rem;
+.skill-category:hover .skill-icon {
+    transform: scale(1.05);
 }
 
 .skill-category h3 {
     margin: 0.5rem 0;
-    font-size: 0.9em;
-    line-height: 1.2;
+    font-size: 1em;
+    color: var(--tech-primary);
 }
 
+/* Tooltip Styles */
 .skill-tooltip {
     display: none;
     position: absolute;
@@ -372,6 +379,7 @@ h1, h2, h3, h4, h5, h6 {
     width: max-content;
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
 }
 
 .skill-category:hover .skill-tooltip {
@@ -390,6 +398,64 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0.25rem 0;
     color: white;
     font-size: 0.8em;
+}
+
+/* Add a small arrow to the tooltip */
+.skill-tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(50, 133, 116, 0.95) transparent transparent transparent;
+}
+
+/* Industry Section Specific */
+#industry .skills-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+}
+
+#industry .skill-category {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+#industry .skill-category:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+    
+    .skill-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .skill-tooltip {
+        font-size: 0.9em;
+        padding: 0.6rem;
+    }
 }
 
 /* Posts */

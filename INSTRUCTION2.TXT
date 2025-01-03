@@ -1,0 +1,8 @@
+centre align the Content Coming Soon text to directly below the Coming Soon image - they must be aligned.
+
+Then proceed to add the following to the Stack section with their respective icons :
+
+Geopandas - images\geopandas_logo_green.png
+Flask - images\flasklogo.jpg
+GCP - images\png-clipart-logo-google-cloud-platform-cloud-computing-font-cloud-computing-text-cloud.png
+
